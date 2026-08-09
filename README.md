@@ -35,7 +35,8 @@ Frequent Itemsets
         ↓
 Association Rules
         ↓
-Movie Recommendations
+Movie Recommendations 
+
 
 # 📊 Evaluation
 
