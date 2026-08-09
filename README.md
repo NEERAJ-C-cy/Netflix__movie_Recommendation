@@ -20,6 +20,8 @@ Seaborn
 Jupyter Notebook
 
  # ⚙️ Workflow
+
+```mermaid
 flowchart TD
     A[Netflix Movie Dataset] --> B[Data Cleaning & Preprocessing]
     B --> C[Create User-Movie Transactions]
@@ -35,6 +37,7 @@ flowchart TD
     H --> I[Calculate Support, Confidence & Lift]
     I --> J[Filter Strong Rules]
     J --> K[Generate Movie Recommendations]
+```
 
 
 # 📊 Evaluation
