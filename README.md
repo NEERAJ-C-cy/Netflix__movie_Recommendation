@@ -20,22 +20,21 @@ Seaborn
 Jupyter Notebook
 
  # ⚙️ Workflow
-Netflix Dataset
-      ↓
-Data Preprocessing
-      ↓
-User-Movie Transactions
-      ↓
- ┌─────────────┐
- │ Apriori     │
- │ ECLAT       │
- └──────┬──────┘
-        ↓
-Frequent Itemsets
-        ↓
-Association Rules
-        ↓
-Movie Recommendations 
+
+    A[Netflix Movie Dataset] --> B[Data Cleaning & Preprocessing]
+    B --> C[Create User-Movie Transactions]
+    C --> D[Generate Transaction Matrix]
+
+    D --> E[Apriori Algorithm]
+    D --> F[ECLAT Algorithm]
+
+    E --> G[Frequent Itemsets]
+    F --> G
+
+    G --> H[Generate Association Rules]
+    H --> I[Calculate Support, Confidence & Lift]
+    I --> J[Filter Strong Rules]
+    J --> K[Generate Movie Recommendations]
 
 
 # 📊 Evaluation
